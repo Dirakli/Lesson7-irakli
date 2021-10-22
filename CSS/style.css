@@ -1,0 +1,83 @@
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  background-color: lightblue;
+}
+.box {
+  width: 370px;
+  height: 374px;
+  background-color: greenyellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
+.line1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+.line2 {
+  display: flex;
+  justify-content: space-between;
+}
+.text {
+  width: 770px;
+  margin: 0 auto;
+  background-color: green;
+  text-align: center;
+}
+.blue-block {
+  width: 88px;
+  height: 88px;
+  background-color: blue;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-text {
+  width: 250px;
+  background-color: brown;
+  text-align: center;
+}
+.space {
+  margin-top: 25px;
+}
+/* .box:first-child {
+    background-color: chartreuse;
+    margin-bottom: 25px;
+}
+.box:nth-child(2) {
+    background-color: crimson;
+    margin-bottom: 25px;
+}
+.box:nth-child(3) {
+    background-color: darkmagenta;
+    margin-bottom: 25px;
+}
+.box:nth-child(4) {
+    
+}
+.box:nth-child(5) {
+    
+}
+.box:last-child {
+    background-color: darkred;
+} */
+.box:nth-child(odd) {
+  background-color: black;
+}
+.box:nth-child(5) h3 {
+  color: white;
+}
